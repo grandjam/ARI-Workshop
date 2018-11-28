@@ -28,7 +28,7 @@ myNumber3
 # CREATING COMPLEX OBJECTS #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~#
 ### Vectors ###-- a sequence of values assigned to a single object
-# c() function -- combine numeric values or existing objects into a. Note c() coerces all arguments to the same class (e.g., all numeric, all character, all logical, etc.)
+# c() function -- combine numeric values or existing objects into a vector. Note c() coerces all arguments to the same class (e.g., all numeric, all character, all logical, etc.)
 v1 <- c(1,2,3,1,1)
 v1
 class(v1)
