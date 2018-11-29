@@ -284,7 +284,6 @@ iterTime = Sys.time()
   })
   ## Transform the self-confidence integrals into probabilities
   pSpeak = selfConf/sum(selfConf)
-  pSpeak = selfConf2/sum(selfConf2)
   speaker[i] = sample(1:n, 1, prob = pSpeak)
   
 # Step 2: Orientation -- speaker selects topic to speak about
