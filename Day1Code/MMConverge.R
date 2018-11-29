@@ -305,7 +305,7 @@ iterTime = Sys.time()
   
 # Step 4: Integration -- update confidence perceptions and IPFs
   ## Update confidence perceptions
-  ## Result of this stage is a new list (confPercUpdate) of length n that contains the updated confidence perceptions each agent holds about the speaker
+  ## Result of this stage is an update to the confidence perceptions each agent holds about the speaker
   if (M == 0) { # M = 0 means agents decide to update based on their own rspEval
     confPerc = lapply(1:n, function(x) {
       confUpdate(confPerc = confPerc[[x]], rspEval = rspEval[x], speaker = speaker[i], topic = topic, confWidth = confWidth, confChg = confChg, domSize = domSize)
