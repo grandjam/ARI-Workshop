@@ -285,9 +285,6 @@ iterTime = Sys.time()
 # Step 4: Integration -- update confidence perceptions and IPFs
 
 # Record output of step
-GPF[,i+2] = computeGPF(IPF = IPF, confPerc = confPerc)
-mmStats$acc[i+1] = -1*sum((TPF$y - GPF[,i+2])^2)
-mmStats$confDist[i+1] = confDist(confPerc = confPerc, n = n)
 
 Sys.sleep(.01)
 print(paste("Finished iteration", i, "in", round(Sys.time() - iterTime, 2), "seconds", sep = " "))
