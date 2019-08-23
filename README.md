@@ -1,4 +1,4 @@
-# ARI-Workshop
+# ARI-Workshop [![DOI](https://zenodo.org/badge/158593636.svg)](https://zenodo.org/badge/latestdoi/158593636)
 Code, slides, and material for computational modeling workshop sponsored by the Army Research Institute for the Behavioral and Social Sciences.
 
 ### Instructors
